@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<lenguage>
+	<es>
+		<t>natural, raw, cold pressed</t>
+		<t-0>100%</t-0>
+		<t-1>juices</t-1>
+		<t2>Our juices will leave you feeling renewed, refreshed and satisfied.</t2>
+		<t3>Escoge tus jugos</t3>
+		<t4>Días de Tratamiento</t4>
+		<t5>listo para terminar tu compra?</t5>
+		<t6>Día</t6>
+		<t7>uno</t7>
+		<t8>dos</t8>
+		<t9>tres</t9>
+		<t10>cuatro</t10>
+		<t11>Agregar</t11>
+		
+		<m1>Desayuno</m1>
+		<m2>almuerzo</m2>
+		<m3>Cena</m3>
+		<m4>Adicional</m4>
+	</es>
+	<en>
+		<t>natural, raw, cold pressed</t>
+		<t-0>100%</t-0>
+		<t-1>juices</t-1>
+		<t2>Our juices will leave you feeling renewed, refreshed and satisfied.</t2>
+		<t3>Choose your Juices</t3>
+		<t4>Days Cleanse Treatment</t4>
+		<t5>Are you ready to check out?</t5>
+		<t6>Day</t6>
+		<t7>one</t7>
+		<t8>two</t8>
+		<t9>three</t9>
+		<t10>four</t10>
+		<t11>Add</t11>
+		
+		<m1>Breakfast</m1>
+		<m2>Lunch</m2>
+		<m3>Dinner</m3>
+		<m4>Additional</m4>
+	</en>
+</lenguage>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<lenguage>
+	<es>
+		<t2>Renueva y energiza tu cuerpo</t2>
+		<h1>Nosotros</h1>
+		<h1-1>Lugares</h1-1>
+		<h1-2>La Compañía</h1-2>
+		<h1-3>Nuestro Equipo</h1-3>
+		<h2>Menu</h2>
+		<h2-1>Jugos</h2-1>
+		<h2-2>Cleanse</h2-2>
+		<h3>Contactanos!</h3>
+		<h4>Mi Carrito</h4>
+		
+		<f1>Inicio</f1>
+		<f2>Acerca de Juicebox Cleanse</f2>
+		<f3>Nuestro Menú</f3>
+		<f4>Contacto</f4>
+		<f5>Carrito</f5>
+		<f6>Todos los Derechos Reservados</f6>
+		<f7>Copyright Juicebox Cleanse 2013</f7>
+		<f8>Diseño Web &amp; Desarrollo por</f8>
+		
+		<b1>Desayuno</b1>
+		<b2>Almuerzo</b2>
+		<b3>Cena</b3>
+		<b4>Adicional</b4>
+		<b5>Opción</b5>
+		<b6>Borrar Día</b6>
+		<b7>Añadir a carrito</b7>
+	</es>
+	<en>
+		<t2>Restore and energise your body</t2>
+		<h1>About us</h1>
+		<h1-1>Locations</h1-1>
+		<h1-2>The Company</h1-2>
+		<h1-3>Our Team</h1-3>
+		<h2>Our Menu</h2>
+		<h2-1>Juices</h2-1>
+		<h2-2>Cleanse</h2-2>
+		<h3>Contact Us!</h3>
+		<h4>My Cart</h4>
+		
+		<f1>Home</f1>
+		<f2>About Juicebox Cleanse</f2>
+		<f3>Our Menu</f3>
+		<f4>Contact</f4>
+		<f5>Cart</f5>
+		<f6>All Rights Reserverd</f6>
+		<f7>Copyright Juicebox Cleanse 2013</f7>
+		<f8>Web Design &amp; Development by</f8>
+		
+		<b1>Breakfast</b1>
+		<b2>Lunch</b2>
+		<b3>Dinner</b3>
+		<b4>Additional</b4>
+		<b5>Option</b5>
+		<b6>Clear Day</b6>
+		<b7>Add to cart</b7>
+		
+	</en>
+</lenguage>

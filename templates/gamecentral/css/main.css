@@ -1,0 +1,403 @@
+/**
+ * Esta hoja de estilos se realiza para el proyecto Gamecentral
+ *
+ * @project   Gamecentral
+ * @version   1.1
+ * @package   template/gamecentral/css/main.css
+ * @author    Luis Antonio Perez Bautista
+ * @copyright 
+ * @cssdoc    version 1.1
+ * @license   GPL v3
+ *
+ */
+
+/**
+*
+* Estilos globales, clases, etiquetas comunes, etc.
+* @version   1.1
+* @author    Luis Antonio Perez Bautista
+*
+*/
+@import url('reset.css');
+@import url('stickyFooter.css');
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,900);
+
+html{width:100%;height:100%;}
+body{width:100%;height:100%;font-family:'Roboto', Arial, sans-serif;padding: 0}
+a{text-decoration:none;}
+a:hover{text-decoration:none;}
+.clear{clear: both;}
+strong{font-weight: bold;}
+h1{font-size: 26px;font-weight: 900;}
+h1 + hr{background: url(../img/barra.png) no-repeat left 0;border: 0;height: 5px;margin: -10px 0 16px;width: 246px}
+h2{font-size: 22px;}
+h3{font-size: 18px;}
+.transition{
+	webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	-ms-transition: all 1s;
+	transition: all 1s;
+}
+#main{padding-bottom: 95px!important}
+
+.videobox{margin: 10px auto;z-index: 1}
+.video_container{height: 0;margin: 10px 0;overflow: hidden;padding-bottom: 56.25%;padding-top: 30px;position: relative;}
+.video_container iframe,.video_container object,.video_container embed,.video_container video{height: 100%;left: 0;position: absolute;top: 0;width: 100%;} 
+#content{/*padding-top: 107px*/;padding-top: 10px}
+#content .container{background-color: rgba(255,255,255,0.8);/*background-color: #e9eaed;*/color: #373737;margin: 0 auto;max-width: 920px;padding: 20px;position: relative;
+	box-shadow: inset -7px 0px 6px -7px , inset 9px 0px 6px -10px;
+}
+#content .container .card{background-color: #fff;-moz-box-shadow: 0 4px 2px -2px gray;-webkit-box-shadow: 0 4px 2px -2px gray;box-shadow: 0 4px 2px -2px gray;}
+#content .container p{font-size: 15px;line-height: 20px;}
+#content .container .imagepost{margin-bottom: -64px;position: relative;}
+#content .container .imagepost .overlay{height: 100%;left: 0;position: absolute;top: 0;width: 100%;
+	background: -webkit-linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,1));
+	background: -o-linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,1));
+	background: -moz-linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,1));
+	background: linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,1));
+
+}
+#content .container .imagepost img{/*opacity: 0.4;*/max-height: 228px;width: 100%;}
+#content .container .singlepost{position: relative;}
+#content .container .singlepost .postTitle{margin-bottom: 10px}
+#content .container .singlepost .postTitle h1{background: url(../img/barra.png) no-repeat left 48px;font-size: 34px;font-weight: 900;margin-top: -18px}
+#content .container .singlepost .postTitle h2{font-size: 18px;text-transform: capitalize;}
+#content .container .singlepost .post-content p,
+#content .container .singlepost .post-content *{text-align: justify;font-size: 15px!important;line-height: 1.4!important}
+#content .container .singlepost p *{background: none!important;color: #373737!important;font-size: 15px!important;line-height: 20px!important;}
+#content .container .singlepost p a{color: #3b5998!important}
+#content .container .singlepost iframe{max-width: 100%}
+
+/**
+*
+* Estilos dentro del header, clases, etiquetas comunes, etc.
+* @version   1.1
+* @author    Luis Antonio Perez Bautista
+*
+*
+*/
+header{position: fixed;width: 100%;z-index: 999;}
+header.static{position: static!important;height: 110px}
+header .shadowblock{background-color: #232323;height: 66px;position: relative;width: 100%;z-index: 99999;
+	-webkit-box-shadow:    0px 4px 5px 0px #000;
+	-moz-box-shadow:    0px 4px 5px 0px #000;
+	box-shadow:         0px 4px 5px 0px #000;
+}
+header .shadowblock .logobar{height: 100%;position: relative;margin: 0 auto;max-width: 960px;}
+header .shadowblock .logobar img{position: absolute;left: 0px;top: 0;z-index: 5}
+header .shadowblock .logobar .social{float: right;margin-top: 13px}
+header .shadowblock .logobar .social a{display: block;margin: 0px auto 8px;height: 44px;float: left;width: 46px;}
+header .shadowblock .logobar .social a.fb{background: url(../img/Facebook.png) no-repeat center;}
+header .shadowblock .logobar .social a.tw{background: url(../img/Twitter.png) no-repeat center;}
+header .shadowblock .logobar .social a.yt{background: url(../img/Youtube.png) no-repeat center;}
+header .shadowblock .logobar .social a.fb:hover{background:  url(../img/Facebook_Hover.png) no-repeat center;}
+header .shadowblock .logobar .social a.tw:hover{background:  url(../img/Twitter_Hover.png) no-repeat center;}
+header .shadowblock .logobar .social a.yt:hover{background:  url(../img/Youtube_Hover.png) no-repeat center;}
+header nav{background-color: #FF4343;line-height: 30px;position: relative;width: 100%;text-align: right;}
+header nav{	
+	webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	-ms-transition: all 1s;
+	transition: all 1s;
+}
+header nav.scrolled{background-color: inherit;bottom: 0;position: absolute;z-index: 99999;
+	webkit-transition: none;
+	-moz-transition: none;
+	-o-transition: none;
+	-ms-transition: none;
+	transition: none;
+}
+header .mist{background:  url(../img/Degradado.png) no-repeat center;display: none;height: 150px;left: 0;position: absolute;top: 10px;width: 100%;}
+header.down .mist{display: block;}
+header nav ul{margin: 0 auto;max-width: 960px;}
+header nav li:nth-child(1){width: 13%}
+header nav li{display: inline-block;width: 14%;text-align: center;}
+header nav.scrolled li{border-bottom: 3px solid #CCCCCC}
+header nav.scrolled li:hover{border-bottom: 3px solid #FF4343}
+header nav a{color:#fff;font-size: 20px;font-weight: 300;margin: 0px 10px;line-height: 41px;}
+#mobileMenu{display: none;/*position: absolute;top: 114px;*/width: 100%}
+#mobileMenu select.form-control{display: block;
+width: 92%;
+margin: 10px auto;
+height: 34px;
+padding: 6px 12px;
+font-size: 14px;
+line-height: 1.428571429;
+color: #555;
+background-color: #fff;
+background-image: none;
+border: 1px solid #ccc;
+border-radius: 4px;
+-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+-webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+
+
+/**
+*
+* Estilos dentro de la pagina de inicio, clases, etiquetas comunes, etc.
+* @version   1.1
+* @author    Luis Antonio Perez Bautista
+*
+*
+*/
+#content .container.home{}
+#content .container.home .column{float: left;width: 66%}
+#content .container.home .column.right{margin-left: 2%;width: 32%;}
+#content .container.home .imagepost{}
+#content .container.home .message{padding: 10px;}
+#content .container.home .message .singlepost.home.title{float: none;width: 100%}
+#content .container.home .message .singlepost.home h1{background-position-y: 42px;font-size: 26px}
+#content .container.home .message .singlepost.home p{}
+#content .container.home .message .singlepost.home .videobox{margin: 10px auto;}
+#content .container.home .notices{}
+#content .container.home .promos h1{margin: 0}
+#content .container.home .notices .box{float: left;margin-top: 10px;padding: 2%;width: 45%;}
+#content .container.home .notices .box + .box{margin-left: 2%}
+#content .container.home .notices .box .imagepost{height: 89px;background-repeat: no-repeat!important;
+background-size: cover!important;
+background-position: center!important;
+}
+#content .container.home .notices .box .imagepost{margin-bottom: -33px}
+#content .container.home .notices .box .imagepost .overlay{/*display: none;*/}
+#content .container.home .notices .box .postTitle{margin-bottom: 0}
+#content .container.home .notices .box .postTitle h1{background: none;font-size: 18px;line-height: 20px;margin: 2px 0 5px}
+#content .container.home .notices .box .postTitle h1 a{color: #373737}
+#content .container.home .notices .box .postTitle h2{background: url(../img/barra.png) no-repeat -42px bottom;font-size: 14px;text-transform: capitalize;}
+#content .container.home .notices .box .singlepost p{text-align: left;}
+#content .container.home .gallery{margin-bottom: 15px;padding: 6px}
+#content .container.home .gallery .bx-wrapper{z-index: 1}
+#content .container.home .gallery img{;margin: 0 auto}
+#content .container.home .twitterfeed{padding: 6px}
+
+/**
+*
+* Estilos dentro de la seccion de noticia, clases, etiquetas comunes, etc.
+* @version   1.1
+* @author    Luis Antonio Perez Bautista
+*
+*
+*/
+#content .container .review{padding: 15px}
+#content .container .review .imagepost{height: 228px;background-repeat: no-repeat!important;
+background-size: cover!important;
+background-position: center!important;
+}
+#content .container .review .singlepost{padding-bottom: 15px}
+#content .container .review .main-image{display: block;margin: 10px auto;max-width: 400px}
+#content .container .review .author{background: #232323;box-shadow: none;color: #fff;margin:5px auto;padding: 10px;}
+#content .container .review .author .avatar{float: left;width: 15%;}
+#content .container .review .author .avatar img{max-width: 100%}
+#content .container .review .author .info{float: left;width: 80%;padding: 0 2.5%}
+
+/**
+*
+* Estilos dentro de la seccion de listado de noticias, clases, etiquetas 
+* comunes, etc.
+* @version   1.1
+* @author    Luis Antonio Perez Bautista
+*
+*
+*/
+#content .container.listado .form-control{max-width: 200px!important;height: auto!important;float: right;padding: 4px!important;margin-bottom: 4px}
+#content .container.listado select.form-control{display: block;
+float: left;
+width: 100%;
+height: 34px;
+padding: 6px 12px;
+font-size: 14px;
+line-height: 1.428571429;
+color: #555;
+background-color: #fff;
+background-image: none;
+border: 1px solid #ccc;
+border-radius: 4px;
+-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+-webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+#content .container #pagination{margin-top: 10px}
+#content .container #pagination a{background: #CBCBCB;font-size: 16px;padding: 6px;margin-left: 2px;}
+#content .container #pagination a.on{background: #232323;color: #fff}
+
+
+#content .container .news {padding: 2% ;position: relative;}
+#content .container .news + .news {margin-top: 15px;}
+#content .container .news .imagenews {float: left; padding: 0 2%;}
+#content .container .news .text {float: left; padding: 0 2%; border-left: 1px solid #9A9A9A; width: 60%;}
+#content .container .news .text h2 {background: url(../img/barra.png) no-repeat left 30px;font-size: 20px;font-weight: 900;}
+#content .container .news .text h2 a{color: #373737}
+#content .container .news .text h3 {font-size: 12px;font-weight: 300;}
+#content .container .news .text p *{background: none!important;color: #373737!important;font-size: 15px!important;line-height: 20px!important;}
+#content .container .news .text p{font-size: 15px!important}
+#content .container .news .imagenews img{/*height: 110px*/;width: 180px}
+#content .container .news a.arrow{background: url(../img/more.png) no-repeat;display: block; right: 0; top: 0; position: absolute;width: 62px; height: 56px;}
+#content .container .news a.destacado {background: url(../img/more_star.png) no-repeat;}
+#content .container .news a.resena {background: url(../img/more_review.png) no-repeat;}
+#content .container .news a.noticia {background: url(../img/more_notice.png) no-repeat;}
+#content .container .news a.arrow:hover{background: url(../img/more.png) no-repeat;}
+#content .container.resultados form h2{float: left;}
+/**
+*
+* Estilos dentro de la seccion de catalogo, clases, etiquetas comunes, etc.
+* @version   1.1
+* @author    Luis Antonio Perez Bautista
+*
+*
+*/
+#content .container .brand {/*float: left; width: 45%;*/ padding: 2%;}
+#content .container .brand + .brand {/*margin-left: 2%*/}
+#content .container .brand h1 {background: url(../img/barra.png) no-repeat left 36px;font-size: 26px;font-weight: 900;margin-bottom: 20px}
+#content .container .brand .product {float: left; width: 20.5%; padding: 2%;}
+#content .container .brand .product.card{box-shadow: none;-webkit-box-shadow:none;}
+#content .container .brand .product .console h1 {background: none;font-size: 16px;line-height: 20px;margin: 2px 0 5px}
+#content .container .brand .product .console h2 {background: url(../img/barra.png) no-repeat -42px bottom;font-size: 14px}
+#content .container .brand .product .console .imagepost {height: 35px;overflow: hidden;margin-bottom: -33px;}
+#content .container .brand .product .console .imagepost .overlay {height: 100%;left: 0;position: absolute;top: 0;width: 100%;
+	background: -webkit-linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,1));
+	background: -o-linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,1));
+	background: -moz-linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,1));
+	background: linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,1));
+}
+#content .container .brand .product .gallery {margin-bottom: 0px;padding: 0px}
+#content .container .brand .product .gallery .bx-wrapper {z-index: 1}
+#content .container .brand .product .bx-wrapper .bx-viewport{border:0;-webkit-box-shadow:none;box-shadow:none;left: 0}
+#content .container .brand .product .gallery img {;margin: 0 auto}
+#content .container .view-more{background: #FF4343;color: #fff;display: block;margin-top:10px;font-size: 15px;float: right;text-align: center;padding: 5px;width: 15%}
+
+
+/**
+*
+* Estilos dentro de la seccion de sucursales, clases, etiquetas comunes, etc.
+* @version   1.1
+* @author    Luis Antonio Perez Bautista
+*
+*
+*/
+#content .container .sucursal{padding: 2.5% 0;position: relative;}
+#content .container .sucursal + .sucursal{margin-top: 15px}
+#content .container .sucursal .map{float: left;height: 182px;padding: 0 2.5%;width: 30%}
+#content .container .sucursal .text{border-left: 1px solid #9A9A9A;float: left;padding: 0 2%;width: 60%}
+#content .container .sucursal h2{background: url(../img/barra.png) no-repeat left 36px;font-size: 26px;font-weight: 900;}
+#content .container .sucursal p{line-height: 28px}
+#content .container .sucursal a.fb{background: url(../img/facebook_square.png) no-repeat;display: block;height: 64px;right: 0;position: absolute;top: 0;width: 70px;}
+#content .container .sucursal a.fb:hover{background: url(../img/facebook_square_selected.png) no-repeat}
+#content .container .sucursal.odd .map{float: right}
+#content .container .sucursal .sucursal-map{width: auto;height: 170px}
+#content .container .sucursal.odd .text{border: 0;border-right: 1px solid #9A9A9A;text-align: right;}
+#content .container .sucursal.odd h2{background: url(../img/bar_inverse.png) no-repeat left 36px;font-size: 26px;font-weight: 900; background-position-x:310px}
+#content .container .sucursal.odd a.fb{left: 0;right: auto;}
+
+/**
+*
+* Estilos dentro de la seccion de contacto, clases, etiquetas comunes, etc.
+* @version   1.1
+* @author    Luis Antonio Perez Bautista
+*
+*
+*/
+#content .container .contactbox{padding: 15px}
+#content .container .contactbox label{font-weight: 700}
+#content .container .contactbox input[type="email"],
+#content .container .contactbox input[type="text"] , .contactbox textarea{margin-bottom: 10px;padding: 0 6px;width: 85%;}
+#content .container .form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+#content .container .contactbox input[type="submit"]{background: #FF4343;border: 0;font-size: 18px;padding: 8px;font-weight: 400;color:#fff;}
+
+/**
+*
+* Estilos dentro de la seccion footer, clases, etiquetas comunes, etc.
+* @version   1.1
+* @author    Luis Antonio Perez Bautista
+*
+*
+*/
+#footer{background-color: #FF4343;min-height: 100px;margin-top: -100px!important;/*margin: 0px 0 0;*/}
+#footer .container{margin: 0 auto;max-width: 960px;}
+#footer .column{color: #fff;float: left;font-size: 14px;line-height: 20px;padding: 10px 0;text-align: left;width: 33%;}
+#footer .column h3{font-size: 18px}
+#footer .column h3 a{color: #fff}
+#footer .column.middle{text-align: center;}
+#footer .column.middle a{display: inline-block;margin: 0px auto 8px;height: 44px;width: 46px;}
+#footer .column.middle a.fb{background: url(../img/Facebook_white.png) no-repeat center;}
+#footer .column.middle a.tw{background: url(../img/Twitter_white.png) no-repeat center;}
+#footer .column.middle a.yt{background: url(../img/Youtube_white.png) no-repeat center;}
+#footer .column.right{float: right;text-align: right;}
+
+
+/**
+*
+* Estilos media query, para la adaptacion de pantalla 
+* clases, etiquetas comunes, etc.
+* @version   1.1
+* @author    Luis Antonio Perez Bautista
+*
+*
+*/
+/*Responsive Layout*/
+@media all and (max-width: 979px){
+	#content .container .postTitle{/*margin-top: -60px*/}
+	aside , header nav span.blacksquare{display: none;}
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	header nav{display: none;}
+	#mobileMenu{display: block;}
+	#content{padding: 10px 12px 0}
+	#content .container.home .column{float: none;width: 100%!important}
+	#content .container.home .column.right{margin: 10px 0 0!important}
+	#content .container .sucursal .map{float: none;margin-top: 50px;width: 95%;}
+	#content .container .sucursal .text{border: 0!important;text-align: left!important;}
+	#content .container .sucursal.odd h2{background-position-x:inherit;}
+	#content .container .brand{float: none!important;width: auto!important;margin-left: 0!important}
+	#footer .column{display: block!important;float: none!important;padding: 5px 0;text-align: center!important;width: 100%!important;}
+}
+
+@media (max-width: 560px){
+	#content .container.home .notices .box{float: none;margin: 5px 0!important;width: 96%!important}
+	#content .container .brand .product{float: none!important;width: auto!important;margin-left: 0!important}
+	#content .container .view-more{float: none!important;margin: 10px auto;max-width: 250px;width: auto!important}
+}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	#content .container{background: transparent;padding: 0}
+	header{position: static;height: auto!important;margin-bottom: 60px}
+	header .shadowblock .logobar .social{display: none!important;}
+	#content .container .news .text{border-left: 0;float: none;width: auto}
+	#content .container.listado select.form-control{display: block;float: none;margin: 0 auto;width: 100%;max-width: none!important}
+	#content .container.listado form input[type="text"]{float: none;display: block;margin: 10px auto;width: 96%!important;max-width: none!important}
+	#content .container .singlepost .postTitle h1{font-size: 26px}
+	#content .container .news .imagenews{float: none;width: auto}
+	#content .container #pagination{background: #fff;padding: 10px}
+}
+
+
+/*Retina conditions*/
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {}
